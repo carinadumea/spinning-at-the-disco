@@ -72,3 +72,8 @@ a:hover{
 footer img{
     width: 40px;
 }
+
+.icons a{
+    width: auto;
+    float: left!important;
+}
