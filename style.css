@@ -16,6 +16,9 @@ header{
     background-attachment: fixed;
     text-align: left!important;
 }
+h2{
+    text-shadow: 2px 2px #fab169;
+}
 span{
     display: inline-block;
     margin: 0 auto;
