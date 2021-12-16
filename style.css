@@ -34,9 +34,20 @@ transform: scale(-1, 1);
 }
 .navbar{
     background-color:#f05f41;
+    border-bottom: 3px solid #3a0f0775;
+}
+.navbar p{
+    color:#3a0f07;
+}
+nav button{
+    background-color:#3a0f07!important;
 }
 nav img{
     height: 50px;
+    float:left;
+}
+.meniu{
+    float:left;
 }
 a{
     color:#3a0f07;
@@ -49,11 +60,12 @@ a:hover{
     color:#f05f41;
 }
 .nav-link{
-    color:#3a0f07;
+    color:#3a0f07!important;
     text-decoration: none;
 }
 .nav-link:hover, .nav-link:active{
-    color:#fab169;
+    color:#fab169!important;
+    
 }
 .card{
     background-color:#fab169;
@@ -63,6 +75,9 @@ a:hover{
 }
 .card{
     box-shadow: 3px 3px #3a0f0738;
+}
+.card-18{
+    width: 18rem;
 }
 .logoimg img{
     height: 50px;
